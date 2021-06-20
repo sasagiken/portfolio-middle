@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>ユアコーディング</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- header ******************************************** -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo-title">
+                <a href="/index.html" class="logo-title_link">
+                    <img src="./images/Pink and Purple Events & party Entertainment Logo.png" alt="ロゴ" class="logo-img">
+                    ユアコーディング
+                </a>
+            </h1>
+            <nav class="header-nav">
+                <ul class="header-nav_list">
+                    <li class="header-nav_item"><a href="#features">特徴</a></li>
+                    <li class="header-nav_item"><a href="#price">価格</a></li>
+                    <li class="header-nav_item"><a href="#contact">お問い合わせ</a></li>
+                    <li class="header-nav_item"><a href="#contact" class="link-form_btn">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <button type="button" id="js-burger" class="burger-btn" aria-controls="js-global-menu" aria-expanded="false" aria-label="メニューを開閉する">
+                <span class="burger-line"></span>
+            </button>
+            <div class="sp-global-menu" id="js-global-menu" area-hidden="true">
+                <nav>
+                    <ul class="sp-global-menu_list">
+                        <li class="sp-global-menu_item"><a href="#features">特徴</a></li>
+                        <li class="sp-global-menu_item"><a href="#price">価格</a></li>
+                        <li class="sp-global-menu_item"><a href="#contact">お問い合わせ</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div id="js-drawer-background" class="drawer-background"></div>
+        </div>
+    </header>
+<!-- /header ******************************************* -->
+
+    <div id="js-scroll-fadein" class="js-scroll-fadein arrow"></div>
+
+    <main>
+<!-- first view ******************************************** -->
+        <section id="top" class="fv">
+            <div class="fv-inner section-inner">
+                <div class="title-contents">
+                    <p class="main-title">
+                        コーディングの手間を<br>
+                        最小に、デザインに注力<br>
+                        する助けに
+                    </p>
+                    <p class="sub-title">
+                        ユアコーディングはコーディングに<br>
+                        特化したフリーランス<br>
+                        デザインに注力されたい方の<br>
+                        助けになります
+                    </p>
+                    <a href="#contact" class="link-form_btn fv_btn">お問い合わせ</a>
+                </div>
+                <img src="./images/manager.png" alt="TOPページ画像" class="fv-img">
+                <img src="./images/楕円形 1.png" alt="TOPページ背景" class="fv-bg-img">
+            </div>
+        </section>
+<!-- /first view ******************************************* -->
+
+<!-- features ******************************************** -->
+        <section id="features" class="features section-wrapper">
+            <div class="section-inner">
+                <div class="section-title_block" data-aos="fade-up">
+                    <h2 class="section-title">ユアコーディング3つの特徴</h2>
+                    <p class="sub-en-title">FEATURES</p>
+                </div>
+                <ul class="features_list">
+                    <li class="features_item">
+                        <h3 class="features_item-title" data-aos="fade-up">高速コーディング</h3>
+                        <div class="features_item-contents">
+                            <div class="features_item-img" data-aos="zoom-in">
+                                <img src="./images/features_cto.png" alt="高速コーティングで対応します">
+                            </div>
+                            <div class="features_item-text-contents" data-aos="slide-right">
+                                <p class="features_item-title-text">
+                                    コーディングに特化したフリーランスのため、
+                                    スピード感を持った開発が可能。
+                                </p>
+                                <p class="features_item-text">
+                                    開発は常にスピードとの勝負です。
+                                    ユアコーディングはコーディングに特化しているため、
+                                    素早く納品することで、クライアントがデザインに注力する助けとなります。
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="features_item">
+                        <h3 class="features_item-title" data-aos="fade-up">高品質</h3>
+                        <div class="features_item-contents flex-reverse">
+                            <div class="features_item-img" data-aos="zoom-in">
+                                <img src="./images/features_building_website.png" alt="内部SEOに強いコーディングをします">
+                            </div>
+                            <div class="features_item-text-contents" data-aos="slide-left">
+                                <p class="features_item-title-text">
+                                    正しいマークアップで、<br>
+                                    内部SEOに強いコーディングを<br>
+                                    デフォルトで行います。
+                                </p>
+                                <p class="features_item-text">
+                                    ユアコーディングでは、「予測しやすい」「再利用しやすい」「保守しやすい」「拡張しやすい」と言った設計をもとにきちんとコーディングを行うため、納品後も安心です。
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="features_item">
+                        <h3 class="features_item-title" data-aos="fade-up">迅速なレスポンス</h3>
+                        <div class="features_item-contents">
+                            <div class="features_item-img" data-aos="zoom-in">
+                                <img src="./images/features_new_message.png" alt="迅速なレスポンスがモットーです">
+                            </div>
+                            <div class="features_item-text-contents" data-aos="slide-right">
+                                <p class="features_item-title-text">
+                                    原則いただいたメッセージは<br>
+                                    業務時間内であれば6時間以内に<br>
+                                    お返しいたします。
+                                </p>
+                                <p class="features_item-text">
+                                    連絡を返さないフリーランスが多い中、
+                                    ユアコーディングでは定期的な業務報告など、
+                                    社会人としての基本を踏まえて仕事を行っております。
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- /features ******************************************* -->
+
+<!-- price ******************************************** -->
+        <section id="price" class="price section-wrapper lightblue-bg">
+            <div class="section-inner">
+                <div class="section-title_block" data-aos="fade-up">
+                    <h2 class="section-title">価格</h2>
+                    <p class="sub-en-title">PRICE</p>
+                </div>
+                <dl class="price_list" data-aos="zoom-in">
+                    <div>
+                        <dt class="price_title">HTMLコーディングトップページ</dt>
+                        <dd class="price_detail">30,000円〜</dd>
+                    </div>
+                    <div>
+                        <dt class="price_title">HTMLコーディング下層1ページ</dt>
+                        <dd class="price_detail">10,000円〜</dd>
+                    </div>
+                    <div>
+                        <dt class="price_title">HTML+WordPressトップページ</dt>
+                        <dd class="price_detail">55,000円〜</dd>
+                    </div>
+                    <div>
+                        <dt class="price_title">HTML+WordPress下層1ページ</dt>
+                        <dd class="price_detail">15,000円〜</dd>
+                    </div>
+                </dl>
+                <p class="price-notes" data-aos="zoom-in">*詳細な価格はページや仕様によって異なります。</p>
+            </div>
+        </section>
+<!-- /price ******************************************* -->
+
+<!-- faq ******************************************** -->
+        <section class="faq section-wrapper">
+            <div class="section-inner">
+                <div class="section-title_block" data-aos="fade-up">
+                    <h2 class="section-title">よくある質問</h2>
+                    <p class="sub-en-title">FAQ</p>
+                </div>
+                <ul class="faq_list" data-aos="zoom-in">
+                    <li class="faq_item">
+                        <p class="faq_item-question jsAccordionTitle">
+                            デザインから一貫してお願いすることは可能でしょうか
+                        </p>
+                        <p class="faq_item-answer is-open">
+                            ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。
+                            ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。
+                        </p>
+                    </li>
+                    <li class="faq_item">
+                        <p class="faq_item-question jsAccordionTitle">
+                            WordPressのカスタマイズをお願いすることも可能でしょうか？
+                        </p>
+                        <p class="faq_item-answer">
+                            可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。
+                        </p>
+                    </li>
+                    <li class="faq_item">
+                        <p class="faq_item-question jsAccordionTitle">
+                            コーディングのスピード感が知りたい
+                        </p>
+                        <p class="faq_item-answer">
+                            HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安になります。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- /faq ******************************************* -->
+
+<!-- blog ******************************************** -->
+        <section id="blog" class="blog section-wrapper lightblue-bg">
+            <div class="section-blog-inner">
+                <div class="section-title_block" data-aos="fade-up">
+                    <h2 class="section-title">ブログ</h2>
+                    <p class="sub-en-title">BLOG</p>
+                </div>
+                <ul class="blog_list">
+                    <li class="blog_item" data-aos="zoom-in">
+                        <a href="#blog" class="blog_item-link">
+                            <div class="blog_item-img">
+                                <img src="./images/work-space.png" alt="オフィスの日常">
+                            </div>
+                            <div class="blog_item-text-contents">
+                                <p class="blog-text">
+                                    サイトをリニューアルオープンしました。
+                                </p>
+                                <time class="blog-date">2020.01.23</time>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog_item" data-aos="zoom-in">
+                        <a href="#blog" class="blog_item-link">
+                            <div class="blog_item-img">
+                                <img src="./images/meeting.png" alt="ミーティング風景">
+                            </div>
+                            <div class="blog_item-text-contents">
+                                <p class="blog-text">
+                                    WebサイトでSEO内部施策に適したコーディングでどれくらいサイトが早くなるのか検証してみました
+                                </p>
+                                <time class="blog-date">2020.01.24</time>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog_item" data-aos="zoom-in">
+                        <a href="#blog" class="blog_item-link">
+                            <div class="blog_item-img">
+                                <img src="./images/break-time.png" alt="仕事中の雑談">
+                            </div>
+                            <div class="blog_item-text-contents">
+                                <p class="blog-text">
+                                    ユアコーディングではデザイナーの方を広く募集しています。
+                                </p>
+                                <time class="blog-date">2020.01.25</time>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- /blog ******************************************* -->
+
+<!-- works ******************************************** -->
+        <section class="works section-wrapper">
+            <div class="section-works-inner">
+                <div class="section-title_block" data-aos="fade-up">
+                    <h2 class="section-title">制作実績</h2>
+                    <p class="sub-en-title">WORKS</p>
+                </div>
+                <div class="swiper-container" data-aos="slide-left">
+                    <ul class="works_list swiper-wrapper">
+                        <li class="works_item swiper-slide">
+                            <img src="./images/digital-marketing.png" alt="採用サイト写真" class="works_item-img">
+                            <div class="works_item-contents">
+                                <p class="works-text">
+                                    株式会社サンプル様採用サイトのコーディングを行いました！
+                                </p>
+                                <ul class="works-details_list">
+                                    <li class="works-details_item">
+                                        <p class="works-details_item-tech">
+                                            採用技術：jQuery,Bootstrap4
+                                        </p>
+                                        <p class="works-details_item-period">
+                                            実装期間：2週間
+                                        </p>
+                                        <p class="works-details_item-coder">
+                                            担当コーダー：石井
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="works_item swiper-slide">
+                            <img src="./images/desk-image.png" alt="デスク写真" class="works_item-img">
+                            <div class="works_item-contents">
+                                <p class="works-text">
+                                    コーディングカンファレンスのイベントLPの制作を行いました！
+                                </p>
+                                <ul class="works-details_list">
+                                    <li class="works-details_item">
+                                        <p class="works-details_item-tech">
+                                            採用技術：jQuery,WordPress
+                                        </p>
+                                        <p class="works-details_item-period">
+                                            実装期間：4週間
+                                        </p>
+                                        <p class="works-details_item-coder">
+                                            担当コーダー：石井
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="works_item swiper-slide">
+                            <img src="./images/digital-marketing.png" alt="採用サイト写真" class="works_item-img">
+                            <div class="works_item-contents">
+                                <p class="works-text">
+                                    株式会社サンプル様採用サイトのコーディングを行いました！
+                                </p>
+                                <ul class="works-details_list">
+                                    <li class="works-details_item">
+                                        <p class="works-details_item-tech">
+                                            採用技術：jQuery,Bootstrap4
+                                        </p>
+                                        <p class="works-details_item-period">
+                                            実装期間：2週間
+                                        </p>
+                                        <p class="works-details_item-coder">
+                                            担当コーダー：石井
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="works_item swiper-slide">
+                            <img src="./images/coding-image.png" alt="通販サイト写真" class="works_item-img">
+                            <div class="works_item-contents">
+                                <p class="works-text">
+                                    株式会社サンプル様通販サイトのコーディングを行いました！
+                                </p>
+                                <ul class="works-details_list">
+                                    <li class="works-details_item">
+                                        <p class="works-details_item-tech">
+                                            採用技術：jQuery,Bootstrap4
+                                        </p>
+                                        <p class="works-details_item-period">
+                                            実装期間：6週間
+                                        </p>
+                                        <p class="works-details_item-coder">
+                                            担当コーダー：石井
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+<!-- /works ******************************************* -->
+
+<!-- contact ******************************************** -->
+        <section id="contact" class="contact section-wrapper">
+            <div class="section-inner">
+                <div class="section-title_block" data-aos="fade-up">
+                    <div class="section-title white">お問い合わせ</div>
+                    <p class="sub-en-title white">CONTACT</p>
+                </div>
+                <p class="contact-message white" data-aos="zoom-in">
+                    コーディングの人手が足りないとき、<br>
+                    あなたの力になります
+                </p>
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScd2SK5EA2EhS1T9GkOKOwmN-6K3rzrl0ER_Mfyv-cCB7jZvg/formResponse" id="form" class="contact_form" data-aos="zoom-in">
+                    <ul class="form_list">
+                        <li class="form_item">
+                            <div class="form_item-title">
+                                <label for="name">お名前</label>
+                                <span class="required">必須</span>
+                            </div>
+                            <input type="text" class="text-box" id="name" name="entry.1455235587" required>
+                        </li>
+                        <li class="form_item">
+                            <div class="form_item-title">
+                                <label for="email">メールアドレス</label>
+                                <span class="required">必須</span>
+                            </div>
+                            <input type="text" class="text-box" id="email" name="entry.18027784" required>
+                        </li>
+                        <li class="form_item">
+                            <div class="form_item-title">
+                                <label for="detail">お問い合わせ内容</label>
+                                <span class="required">必須</span>
+                            </div>
+                            <textarea class="textarea" id="detail" name="entry.531740364" cols="30" rows="10" required></textarea>
+                        </li>
+                    </ul>
+                    <p class="confirm">
+                        <input type="checkbox" class="checkbox" id="check" name="entry.1894373437_sentinel" required>
+                        <label for="check">プライバシーポリシーに同意する</label>
+                    </p>
+                    <div class="btn-wrapper">
+                        <input type="submit" value="送信する" class="submit-btn" disabled>
+                    </div>
+                    <p class="end-message">お問い合わせありがとうございました</p>
+                </form>
+            </div>
+        </section>
+<!-- /contact ******************************************* -->
+    </main>
+
+<!-- footer ******************************************** -->
+    <footer class="footer footer-wrapper">
+        <div class="section-inner">
+            <h2 class="footer-title">ユアコーディング</h2>
+            <div class="footer-link">
+                <a href="#top">プライバシーポリシー</a>
+                <a href="#top">個人商取引に基づく表記</a>
+            </div>
+            <small>&copy;ユアコーディング, All Right Reserved.</small>
+        </div>
+    </footer>
+<!-- /footer ******************************************* -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
