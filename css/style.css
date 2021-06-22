@@ -216,6 +216,8 @@ input, textarea {
   z-index: 5;
   width: 100vw;
   background-color: #fff;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .header-inner {
@@ -525,16 +527,29 @@ input, textarea {
 .fv-inner {
   height: 100vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+@media (min-width: 769px) {
+  .fv-inner {
+    margin-top: 253px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fv-inner {
+    margin-top: 253px;
+  }
 }
 
 @media (max-width: 480px) {
   .fv-inner {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -591,9 +606,8 @@ input, textarea {
   width: 90%;
   max-width: 510px;
   position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
   z-index: -1;
 }
 
@@ -613,13 +627,16 @@ input, textarea {
 @media (max-width: 480px) {
   .fv-img {
     right: 4vw;
-    opacity: 0.5;
+    opacity: 0.3;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
   }
 }
 
 .fv-bg-img {
   position: absolute;
-  top: -50px;
+  top: -303px;
   right: -150px;
   z-index: -2;
   width: 700px;
@@ -752,6 +769,8 @@ input, textarea {
 .price_list {
   margin-bottom: 36px;
   background: #fff;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .price_list div {
