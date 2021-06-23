@@ -401,17 +401,19 @@ input,textarea{
 .fv-inner{
     @include pc{
         margin-top: 253px;
+        margin-bottom: 113px;
     }
     @include tab{
         margin-top: 253px;
+        margin-bottom: 113px;
     }
     @include sp{
-        margin-top: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin-top: 253px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
     }
-    height: 100vh;
+    // height: 100vh;
     position: relative;
 }
 .main-title{

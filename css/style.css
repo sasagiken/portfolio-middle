@@ -525,34 +525,26 @@ input, textarea {
 }
 
 .fv-inner {
-  height: 100vh;
   position: relative;
 }
 
 @media (min-width: 769px) {
   .fv-inner {
     margin-top: 253px;
+    margin-bottom: 113px;
   }
 }
 
 @media (max-width: 768px) {
   .fv-inner {
     margin-top: 253px;
+    margin-bottom: 113px;
   }
 }
 
 @media (max-width: 480px) {
   .fv-inner {
-    margin-top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin-top: 253px;
   }
 }
 
